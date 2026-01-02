@@ -145,7 +145,10 @@ const ProductLineup = () => {
 
                             <div className="mt-auto">
                                 <div className="flex flex-col items-end gap-3 mb-2">
-                                    <div className="text-2xl font-bold text-stone-900">가격: 13,000원</div>
+                                    <div className="text-right">
+                                        <div className="text-sm text-stone-500 mb-1">비대면 PDF 제공</div>
+                                        <div className="text-2xl font-bold text-stone-900">가격: 13,000원</div>
+                                    </div>
                                     <button className="px-6 py-3 rounded-xl border border-stone-200 hover:bg-stone-50 text-stone-800 font-semibold transition flex items-center gap-2">
                                         리포트 신청하기 <ArrowRight className="w-4 h-4" />
                                     </button>
@@ -234,7 +237,10 @@ const ProductLineup = () => {
 
                             <div className="mt-auto">
                                 <div className="flex flex-col items-end gap-3 mb-2">
-                                    <div className="text-xl font-bold text-stone-900">가격: 30,000원 <span className="text-sm font-normal text-stone-500">(40~50분 상담)</span></div>
+                                    <div className="text-right">
+                                        <div className="text-sm text-stone-500 mb-1">(PC 줌(Zoom) / 카카오톡 / 전화 중 선택) 40~50분 상담</div>
+                                        <div className="text-xl font-bold text-stone-900">가격: 30,000원</div>
+                                    </div>
                                     <button className="px-6 py-3 rounded-xl bg-stone-900 hover:bg-stone-800 text-white font-semibold transition flex items-center gap-2 shadow-lg shadow-amber-900/10">
                                         로드맵 신청하기 <ArrowRight className="w-4 h-4" />
                                     </button>
@@ -348,7 +354,10 @@ const ProductLineup = () => {
 
                             <div className="mt-auto">
                                 <div className="flex flex-col items-end gap-3 mb-2">
-                                    <div className="text-xl font-bold text-stone-900">가격: 30,000원 <span className="text-sm font-normal text-stone-500">(40~50분 상담)</span></div>
+                                    <div className="text-right">
+                                        <div className="text-sm text-stone-500 mb-1">(PC 줌(Zoom) / 카카오톡 / 전화 중 선택) 40~50분 상담</div>
+                                        <div className="text-xl font-bold text-stone-900">가격: 30,000원</div>
+                                    </div>
                                     <button className="px-6 py-3 rounded-xl border border-stone-200 hover:bg-emerald-50 text-stone-800 font-semibold transition flex items-center gap-2">
                                         내 커리어 찾기 <ArrowRight className="w-4 h-4" />
                                     </button>
@@ -455,6 +464,10 @@ const ProductLineup = () => {
                             </div>
 
                             <div className="flex flex-col items-end gap-3 mt-auto">
+                                <div className="text-right">
+                                    <div className="text-sm text-stone-500 mb-1">(PC 줌(Zoom) / 카카오톡 / 전화 중 선택) 40~50분 상담</div>
+                                    <div className="text-xl font-bold text-stone-900">가격: 35,000원</div>
+                                </div>
                                 <button className="px-6 py-3 rounded-xl bg-purple-50 border border-purple-200 hover:bg-purple-100 text-purple-900 font-semibold transition flex items-center gap-2">
                                     상담 예약하기 <ArrowRight className="w-4 h-4" />
                                 </button>
