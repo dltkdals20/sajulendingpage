@@ -2,6 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FileText, Map, Sparkles, Compass, UserCheck, Check, ArrowRight, Monitor, Download } from 'lucide-react';
 
+import reportImg from '../assets/report.png';
+import roadmapImg from '../assets/roadmap.png';
+import careerImg from '../assets/career.png';
+import counselingImg from '../assets/counseling.png';
+
 const ProductLineup = () => {
     return (
         <section className="py-12 md:py-24 px-4 bg-white border-t border-dashed border-stone-200">
@@ -25,7 +30,7 @@ const ProductLineup = () => {
                         <div className="md:w-2/5 h-auto relative min-h-[300px] flex flex-col bg-[#FDF9F3]">
                             {/* Chart Image */}
                             <div className="relative">
-                                <img src="/src/assets/report.png" alt="Saju Report" className="w-full object-contain bg-stone-50" />
+                                <img src={reportImg} alt="Saju Report" className="w-full object-contain bg-stone-50" />
                                 <div className="absolute top-4 left-4 inline-block px-3 py-1 rounded-full bg-stone-100/90 backdrop-blur-sm text-xs font-bold text-stone-600">
                                     입문용
                                 </div>
@@ -160,7 +165,7 @@ const ProductLineup = () => {
                         className="flex flex-col md:flex-row-reverse group rounded-3xl bg-[#FFFCF5] border border-amber-200 shadow-md relative overflow-hidden"
                     >
                         <div className="md:w-2/5 h-48 md:h-auto overflow-hidden relative">
-                            <img src="/src/assets/roadmap.png" alt="2026 Roadmap" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src={roadmapImg} alt="2026 Roadmap" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute top-4 right-4 inline-block px-3 py-1 rounded-full bg-amber-500 text-xs font-bold text-white shadow-sm">
                                 BEST SELLER
                             </div>
@@ -246,7 +251,7 @@ const ProductLineup = () => {
                         className="flex flex-col md:flex-row group rounded-3xl bg-white border border-stone-200 hover:border-1 hover:border-emerald-200 transition-all shadow-sm overflow-hidden"
                     >
                         <div className="md:w-2/5 h-64 md:h-auto overflow-hidden relative">
-                            <img src="/src/assets/career.png" alt="Career Compass" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src={careerImg} alt="Career Compass" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute top-4 left-4 inline-block px-3 py-1 rounded-full bg-emerald-50 text-xs font-bold text-emerald-700 border border-emerald-100">
                                 New
                             </div>
@@ -360,7 +365,7 @@ const ProductLineup = () => {
                         className="flex flex-col md:flex-row-reverse group rounded-3xl bg-white border border-stone-200 hover:border-purple-200 transition-all shadow-sm overflow-hidden"
                     >
                         <div className="md:w-2/5 h-auto relative min-h-[300px] overflow-hidden relative">
-                            <img src="/src/assets/counseling.png" alt="Deep Counseling" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <img src={counselingImg} alt="Deep Counseling" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute top-4 right-4 inline-block px-3 py-1 rounded-full bg-purple-50 text-xs font-bold text-purple-700 border border-purple-100">
                                 Signature
                             </div>
