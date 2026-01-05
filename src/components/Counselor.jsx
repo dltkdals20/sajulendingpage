@@ -19,7 +19,7 @@ const Counselor = () => {
                         >
                             <img
                                 src={profileImg}
-                                alt="결 테라피스트"
+                                alt="결쌤 상담소"
                                 className="w-full h-full object-cover"
                             />
 
@@ -48,7 +48,7 @@ const Counselor = () => {
 
                             <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-6 font-serif">
                                 당신의 고유한 '결'을<br />
-                                읽어드리는 <span className="text-amber-600">결 테라피스트</span>입니다.
+                                읽어드리는 <span className="text-amber-600">결쌤 상담소</span>입니다.
                             </h2>
 
                             <div className="space-y-6 text-stone-600 leading-relaxed font-light text-lg">

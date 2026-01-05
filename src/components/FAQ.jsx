@@ -58,7 +58,7 @@ const FAQ = () => {
                             "당신이 바꿔야 할 건 ‘운명’이 아니라,<br />
                             반응의 결 · 선택의 결 · 삶의 결입니다."
                         </p>
-                        <p className="text-stone-400">© 2024 결 상담소 All rights reserved.</p>
+                        <p className="text-stone-400">© 2026 결 상담소 All rights reserved.</p>
                     </div>
                 </div>
             </div>

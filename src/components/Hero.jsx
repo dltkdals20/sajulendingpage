@@ -34,10 +34,12 @@ const Hero = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
-                    <button className="px-8 py-4 rounded-xl bg-stone-900 hover:bg-stone-800 text-white font-semibold text-lg transition-all shadow-lg shadow-stone-900/10 flex items-center gap-2 group">
-                        결쌤 상담 신청하기
-                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    <a href="https://talk.naver.com/wi2drb9" target="_blank" rel="noopener noreferrer">
+                        <button className="px-8 py-4 rounded-xl bg-stone-900 hover:bg-stone-800 text-white font-semibold text-lg transition-all shadow-lg shadow-stone-900/10 flex items-center gap-2 group">
+                            결쌤 상담 신청하기(네이버 톡톡)
+                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        </button>
+                    </a>
 
                     <button className="px-8 py-4 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 font-medium transition-all shadow-sm">
                         사전 질문 먼저 작성하기

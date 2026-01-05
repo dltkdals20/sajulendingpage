@@ -6,6 +6,7 @@ import reportImg from '../assets/report.png';
 import roadmapImg from '../assets/roadmap.png';
 import careerImg from '../assets/career.png';
 import counselingImg from '../assets/counseling.png';
+import ApplyCTA from './ApplyCTA';
 
 const ProductLineup = () => {
     return (
@@ -144,14 +145,14 @@ const ProductLineup = () => {
 
 
                             <div className="mt-auto">
-                                <div className="flex flex-col items-end gap-3 mb-2">
+                                <div className="flex flex-col items-end gap-3 mb-4">
                                     <div className="text-right">
                                         <div className="text-sm text-stone-500 mb-1">비대면 PDF 제공</div>
                                         <div className="text-2xl font-bold text-stone-900">가격: 13,000원</div>
                                     </div>
-                                    <button className="px-6 py-3 rounded-xl border border-stone-200 hover:bg-stone-50 text-stone-800 font-semibold transition flex items-center gap-2">
-                                        리포트 신청하기 <ArrowRight className="w-4 h-4" />
-                                    </button>
+                                </div>
+                                <div className="flex justify-end mb-2">
+                                    <ApplyCTA />
                                 </div>
                                 <p className="text-xs text-stone-400 text-right">
                                     * 안내사항: 리포트는 신청 후 24시간 이내로 링크로 전달됩니다.
@@ -236,14 +237,14 @@ const ProductLineup = () => {
                             </div>
 
                             <div className="mt-auto">
-                                <div className="flex flex-col items-end gap-3 mb-2">
+                                <div className="flex flex-col items-end gap-3 mb-4">
                                     <div className="text-right">
                                         <div className="text-sm text-stone-500 mb-1">(PC 줌(Zoom) / 카카오톡 / 전화 중 선택) 40~50분 상담</div>
                                         <div className="text-xl font-bold text-stone-900">가격: 30,000원</div>
                                     </div>
-                                    <button className="px-6 py-3 rounded-xl bg-stone-900 hover:bg-stone-800 text-white font-semibold transition flex items-center gap-2 shadow-lg shadow-amber-900/10">
-                                        로드맵 신청하기 <ArrowRight className="w-4 h-4" />
-                                    </button>
+                                </div>
+                                <div className="flex justify-end mb-2">
+                                    <ApplyCTA text="2026년 신년운세 신청(네이버 톡톡)" />
                                 </div>
                             </div>
                         </div>
@@ -353,14 +354,14 @@ const ProductLineup = () => {
                             </div>
 
                             <div className="mt-auto">
-                                <div className="flex flex-col items-end gap-3 mb-2">
+                                <div className="flex flex-col items-end gap-3 mb-4">
                                     <div className="text-right">
                                         <div className="text-sm text-stone-500 mb-1">(PC 줌(Zoom) / 카카오톡 / 전화 중 선택) 40~50분 상담</div>
                                         <div className="text-xl font-bold text-stone-900">가격: 30,000원</div>
                                     </div>
-                                    <button className="px-6 py-3 rounded-xl border border-stone-200 hover:bg-emerald-50 text-stone-800 font-semibold transition flex items-center gap-2">
-                                        내 커리어 찾기 <ArrowRight className="w-4 h-4" />
-                                    </button>
+                                </div>
+                                <div className="flex justify-end mb-2">
+                                    <ApplyCTA text="내 커리어 찾기(네이버 톡톡)" />
                                 </div>
                             </div>
                         </div>
@@ -458,19 +459,21 @@ const ProductLineup = () => {
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <span className="w-4 flex justify-center text-purple-500">•</span>
-                                        <span>TCI는 사전 검사 진행 후, 결과를 바탕으로 상담에서 통합 해석합니다.</span>
+                                        <span>TCI는 사전 검사 진행 후, <strong>결과지를 메일로 함께 보내드립니다.</strong></span>
                                     </li>
                                 </ul>
                             </div>
 
-                            <div className="flex flex-col items-end gap-3 mt-auto">
-                                <div className="text-right">
-                                    <div className="text-sm text-stone-500 mb-1">(PC 줌(Zoom) / 카카오톡 / 전화 중 선택) 40~50분 상담</div>
-                                    <div className="text-xl font-bold text-stone-900">가격: 35,000원</div>
+                            <div className="mt-auto">
+                                <div className="flex flex-col items-end gap-3 mb-4">
+                                    <div className="text-right">
+                                        <div className="text-sm text-stone-500 mb-1">(PC 줌(Zoom) / 카카오톡 / 전화 중 선택) 40~50분 상담</div>
+                                        <div className="text-xl font-bold text-stone-900">가격: 35,000원</div>
+                                    </div>
                                 </div>
-                                <button className="px-6 py-3 rounded-xl bg-purple-50 border border-purple-200 hover:bg-purple-100 text-purple-900 font-semibold transition flex items-center gap-2">
-                                    상담 예약하기 <ArrowRight className="w-4 h-4" />
-                                </button>
+                                <div className="flex justify-end mb-2">
+                                    <ApplyCTA text="상담 예약하기(네이버 톡톡)" />
+                                </div>
                             </div>
                         </div>
                     </motion.div>
