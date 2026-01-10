@@ -151,7 +151,12 @@ const ProductLineup = () => {
                                         <div className="text-2xl font-bold text-stone-900">가격: 13,000원</div>
                                     </div>
                                 </div>
-                                <div className="flex justify-end mb-2">
+                                <div className="flex flex-col sm:flex-row justify-end gap-3 mb-2">
+                                    <a href="https://sajureportdetailpage-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
+                                        <button type="button" className="px-6 py-3 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-200 text-amber-800 font-semibold transition flex items-center gap-2">
+                                            상품자세히 보기 <ArrowRight className="w-4 h-4" />
+                                        </button>
+                                    </a>
                                     <ApplyCTA />
                                 </div>
                                 <p className="text-xs text-stone-400 text-right">
@@ -243,7 +248,12 @@ const ProductLineup = () => {
                                         <div className="text-xl font-bold text-stone-900">가격: 30,000원</div>
                                     </div>
                                 </div>
-                                <div className="flex justify-end mb-2">
+                                <div className="flex flex-col sm:flex-row justify-end gap-3 mb-2">
+                                    <a href="https://sajutarodetailpage-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
+                                        <button type="button" className="px-6 py-3 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-200 text-amber-800 font-semibold transition flex items-center gap-2">
+                                            상품자세히 보기 <ArrowRight className="w-4 h-4" />
+                                        </button>
+                                    </a>
                                     <ApplyCTA text="2026년 신년운세 신청(네이버 톡톡)" />
                                 </div>
                             </div>
